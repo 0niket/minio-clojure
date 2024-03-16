@@ -1,0 +1,4 @@
+{:deps
+ {clojure.java-time/clojure.java-time {:mvn/version "1.1.0"}
+  io.minio/minio {:mvn/version "8.5.9"}
+  environ/environ {:git/url "git@github.com:weavejester/environ.git" :git/sha "bd355e6" :git/tag "1.2.0" :deps/manifest :deps}}}
