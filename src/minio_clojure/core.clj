@@ -21,7 +21,7 @@
 (def base-url-local (format "http://%s:%s"
                             (get-in conn-opts [:endpoint :host])
                             (get-in conn-opts [:endpoint :port])))
-(def base-url-prod "https://bucket-production-c211.up.railway.app")
+(def base-url-prod "")
 
 (def base-url (if (= "local" (env :profile))
                 base-url-local
